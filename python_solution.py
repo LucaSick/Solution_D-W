@@ -3,7 +3,7 @@ def getRanges(nums):
     i, j = 0, 1
     ans = ""
 
-    while i < n and j < n:
+    while j < n:
         if nums[j] == nums[j - 1] + 1:
             j += 1
         else:
@@ -26,5 +26,9 @@ input_list = input()
 if input_list == "":
     print("No numbers provided")
 else:
-    lst = list(map(int, input_list.split()))
-    print(getRanges(lst))
+    lst = []
+    try:
+        lst = list(map(int, input_list.split()))
+        print(getRanges(lst))
+    except ValueError:
+        print("All elements must be integers")
