@@ -8,5 +8,6 @@ We are moving **_j_** to the right on every iteration.
 2. Else, we end the range with the previous number, and assign **_i_** with the current index.
 
 # Running the code
-To run the code, download the `python_solution` file and run it with the following command: `python python_solution.py`<br>
+To run the code, download the `python_solution` file and run it with the following command:<br>
+`python python_solution.py`<br>
 Enter in one line sequence of integers, press `Enter` and the program will print out the result
